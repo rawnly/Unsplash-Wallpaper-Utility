@@ -9,8 +9,7 @@
 		"48": "icons/icon48.png",
 		"128": "icons/icon128.png"
 	},
-	"default_locale": "en",
-	"permissions": ["https://unsplash.com/*"],
+	"permissions": ["https://unsplash.com/*", "storage", "tabs"],
 	"content_scripts": [
 		{
 			"matches": ["https://unsplash.com/*"],
